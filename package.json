@@ -1,0 +1,20 @@
+{
+  "name": "logs-cloudtrail-abg",
+  "version": "1.0.0",
+  "description": "push logs from cloudtrail to ES",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Entity group",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.157.0",
+    "co-tchar": "^0.1.2",
+    "proxyquire": "^1.8.0"
+  },
+  "devDependencies": {
+    "aws-lambda-testing": "^0.2.1",
+    "nock": "^9.1.3"
+  }
+}
